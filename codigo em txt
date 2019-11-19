@@ -1,0 +1,16 @@
+algoritmo "meu promeiro algoritimo"
+// Função :    calcular porcentagens de desconto
+// Autor :  luizinho castilhos"
+//data : 18/11/2019
+Var
+   Valor: real
+   porgentagem: inteiro
+
+inicio
+      escreva ("valor da venda R$:")
+      Leia (valor)
+      Escreva("porcentagem %:")
+      leia (Porgentagem)
+      Escreva ("Valor final R$:",valor - (Valor * Porgentagem / 100))
+//seção de comandos
+Fimalgoritmo
